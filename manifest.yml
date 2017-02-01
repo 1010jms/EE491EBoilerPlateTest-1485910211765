@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: EE491EBoilerPlateTest
+  host: EE491EBoilerPlateTest
+  disk_quota: 1024M
+  services:
+  - EE491EBoilerPlateTest-cloudantNoSQLDB
+  - EE491EBoilerPlateTest-iotf-service
